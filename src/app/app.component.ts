@@ -8,9 +8,5 @@ import { Post } from './posts/post.model'
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  storedPosts: Post[]=[];
-  title = 'mean-course';
-  onPostAdded(post){
-    this.storedPosts.push(post);
-  }
+
 }
